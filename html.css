@@ -1,0 +1,71 @@
+h1 {
+    font-family: palatino;
+    color: #ca68d8;
+}
+
+p {
+    font-family: palatino;
+    font-size: large;
+}
+
+h5,
+ul {
+    font-size: medium;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.main {
+    background-image: url('Images/red-background.jpg');
+}
+
+section .thumbnail {
+    background-image: url('Images/pink-background.jpg');
+    color: black;
+    font-family: palatino;
+    font-size: medium;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url('Images/black-background.jpg');
+    color: white;
+    font-family: palatino;
+}
+
+.container {
+    padding: 20px;
+}
+
+.thumbnail {
+    padding: 20px;
+}
+
+.container-fluid .thumbnail {
+    border-radius: 50%;
+}
+
+.container-fluid img{
+    border-radius: 50%;
+}
+
+
+.btn {
+    color: pink;
+    background-color: black;
+    font-family: cursive;
+}
+
+.container-fluid {
+    background-image: url('Images/blue-background.jpg');
+    color: black;
+    font-family: palatino;
+}
+
+.main .thumbnail {
+    position: relative;
+    top: 20px;
+}
+
