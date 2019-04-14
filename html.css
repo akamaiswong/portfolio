@@ -69,6 +69,8 @@ section .thumbnail {
     top: 20px;
 }
 
-
+.figcaption {
+    font-size: medium;
+}
 
 
