@@ -18,20 +18,24 @@ figcaption {
 }
 
 .main {
-    background-image: url('Images/red-background.jpg');
+    background-image: url('Images/purple-background.jpg');
+    background-size: cover;
 }
 
 section .thumbnail {
-    background-image: url('Images/pink-background.jpg');
-    color: black;
+   background-image: url('Images/magenta-background.png');
+   background-size: cover;
+    color: white;
     font-family: palatino;
-    font-size: medium;
+    font-size: 1.4em;
     text-align: center;
 }
 
+
 .jumbotron {
-    background-image: url('Images/black-background.jpg');
-    color: white;
+    background-image: url('Images/cherry-blossom-background.jpg');
+    background-size: cover;
+    color: black;
     font-family: palatino;
 }
 
@@ -41,6 +45,7 @@ section .thumbnail {
 
 .thumbnail {
     padding: 20px;
+    align: center;
 }
 
 .container-fluid .thumbnail {
@@ -59,9 +64,31 @@ section .thumbnail {
 }
 
 .container-fluid {
-    background-image: url('Images/blue-background.jpg');
+    background-image: url('Images/purple-background.jpg');
+    background-size: cover;
     color: black;
     font-family: palatino;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-shadow:
+  -1px -1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+  -1px 1px 0 #ffffff,
+  1px 1px 0 #ffffff;
+  font-family: palatino;
+  font-size: 3.5em;
+}
+
+
+.figcaption {
+    font-size: medium;
 }
 
 .main .thumbnail {
@@ -69,8 +96,21 @@ section .thumbnail {
     top: 20px;
 }
 
-.figcaption {
-    font-size: medium;
-}
 
+.table-style {
+  border: 2px solid;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  font-size: 1.25em;
+  }
+  .table-style td {
+  border: 1px solid;
+  }
+  .table-style td h2 {
+  margin-bottom: 0;
+  }
+  .colcenter {
+  text-align: center;
+  }
 
